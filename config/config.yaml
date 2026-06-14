@@ -1,0 +1,27 @@
+project:
+  name: "Movie Rating Prediction Using Python"
+  random_state: 42
+
+paths:
+  raw_data: "data/raw/tmdb_movies.csv"
+  fallback_data: "data/raw/sample_movies.csv"
+  processed_data: "data/processed/cleaned_movies.csv"
+  model: "models/best_movie_rating_model.pkl"
+  metrics: "reports/model_metrics.csv"
+  figures_dir: "reports/figures"
+
+features:
+  numeric:
+    - runtime
+    - vote_count
+    - popularity
+    - budget
+    - release_year
+  categorical:
+    - main_genre
+    - director
+    - lead_actor
+
+training:
+  test_size: 0.2
+  cv_folds: 5

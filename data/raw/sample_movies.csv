@@ -1,0 +1,21 @@
+title,genres,director,cast,runtime,vote_count,popularity,budget,release_date,vote_average
+The Shawshank Redemption,Drama,Frank Darabont,Tim Robbins|Morgan Freeman,142,2700000,94.5,25000000,1994-09-23,9.3
+The Dark Knight,Action|Crime|Drama,Christopher Nolan,Christian Bale|Heath Ledger,152,2900000,120.1,185000000,2008-07-18,9.0
+Inception,Action|Sci-Fi|Thriller,Christopher Nolan,Leonardo DiCaprio|Joseph Gordon-Levitt,148,2500000,108.2,160000000,2010-07-16,8.8
+Interstellar,Adventure|Drama|Sci-Fi,Christopher Nolan,Matthew McConaughey|Anne Hathaway,169,2100000,113.8,165000000,2014-11-07,8.7
+Pulp Fiction,Crime|Drama,Quentin Tarantino,John Travolta|Uma Thurman,154,2200000,87.0,8000000,1994-10-14,8.9
+Forrest Gump,Drama|Romance,Robert Zemeckis,Tom Hanks|Robin Wright,142,2300000,82.4,55000000,1994-07-06,8.8
+The Matrix,Action|Sci-Fi,Lana Wachowski,Keanu Reeves|Laurence Fishburne,136,2050000,91.3,63000000,1999-03-31,8.7
+Fight Club,Drama,David Fincher,Brad Pitt|Edward Norton,139,2250000,86.5,63000000,1999-10-15,8.8
+Parasite,Drama|Thriller,Bong Joon Ho,Song Kang-ho|Lee Sun-kyun,132,920000,77.9,11400000,2019-05-30,8.5
+La La Land,Comedy|Drama|Music,Damien Chazelle,Ryan Gosling|Emma Stone,128,700000,58.2,30000000,2016-12-09,8.0
+Avatar,Action|Adventure|Fantasy,James Cameron,Sam Worthington|Zoe Saldana,162,1400000,101.7,237000000,2009-12-18,7.9
+Titanic,Drama|Romance,James Cameron,Leonardo DiCaprio|Kate Winslet,194,1250000,96.6,200000000,1997-12-19,7.9
+Joker,Crime|Drama|Thriller,Todd Phillips,Joaquin Phoenix|Robert De Niro,122,1500000,88.1,55000000,2019-10-04,8.4
+Whiplash,Drama|Music,Damien Chazelle,Miles Teller|J.K. Simmons,106,960000,62.7,3300000,2014-10-10,8.5
+The Godfather,Crime|Drama,Francis Ford Coppola,Marlon Brando|Al Pacino,175,2000000,90.2,6000000,1972-03-24,9.2
+Gladiator,Action|Adventure|Drama,Ridley Scott,Russell Crowe|Joaquin Phoenix,155,1600000,73.3,103000000,2000-05-05,8.5
+The Social Network,Biography|Drama,David Fincher,Jesse Eisenberg|Andrew Garfield,120,760000,51.4,40000000,2010-10-01,7.8
+Black Panther,Action|Adventure|Sci-Fi,Ryan Coogler,Chadwick Boseman|Michael B. Jordan,134,820000,72.0,200000000,2018-02-16,7.3
+The Irishman,Biography|Crime|Drama,Martin Scorsese,Robert De Niro|Al Pacino,209,430000,43.0,159000000,2019-11-27,7.8
+Everything Everywhere All at Once,Action|Adventure|Comedy,Daniel Kwan,Michelle Yeoh|Ke Huy Quan,139,610000,67.5,25000000,2022-03-25,7.8

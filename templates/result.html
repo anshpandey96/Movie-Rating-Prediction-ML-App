@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicted Movie Rating</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <main class="result-shell">
+        <section class="result-card">
+            <p class="eyebrow">Prediction Result</p>
+            <h1>{{ rating }}</h1>
+            <p class="subtitle">Predicted movie rating out of 10</p>
+            <div class="rating-bar">
+                <span style="width: {{ rating * 10 }}%"></span>
+            </div>
+            <dl>
+                <div><dt>Genre</dt><dd>{{ movie.main_genre }}</dd></div>
+                <div><dt>Director</dt><dd>{{ movie.director }}</dd></div>
+                <div><dt>Lead Actor</dt><dd>{{ movie.lead_actor }}</dd></div>
+                <div><dt>Runtime</dt><dd>{{ movie.runtime }} minutes</dd></div>
+                <div><dt>Release Year</dt><dd>{{ movie.release_year }}</dd></div>
+            </dl>
+            <a class="button-link" href="{{ url_for('home') }}">Predict Another Movie</a>
+        </section>
+    </main>
+</body>
+</html>

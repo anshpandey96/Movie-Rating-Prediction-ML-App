@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Rating Prediction</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <main class="app-shell">
+        <section class="hero">
+            <div>
+                <p class="eyebrow">Machine Learning Project</p>
+                <h1>Movie Rating Prediction Using Python</h1>
+                <p class="subtitle">Predict a film rating from genre, cast, director, audience votes, budget, runtime, popularity, and release year.</p>
+            </div>
+            <div class="score-panel">
+                <span class="score-label">Rating Scale</span>
+                <strong>0.0 - 10.0</strong>
+            </div>
+        </section>
+
+        {% if model_error %}
+        <div class="alert">
+            {{ model_error }}
+        </div>
+        {% endif %}
+
+        <section class="prediction-grid">
+            <form class="predict-form" action="{{ url_for('predict') }}" method="POST">
+                <div class="form-header">
+                    <h2>Enter Movie Features</h2>
+                    <p>Use realistic values for stronger predictions.</p>
+                </div>
+
+                <label>
+                    Genre
+                    <select name="main_genre" required>
+                        <option>Action</option>
+                        <option>Adventure</option>
+                        <option>Comedy</option>
+                        <option>Crime</option>
+                        <option>Drama</option>
+                        <option>Fantasy</option>
+                        <option>Music</option>
+                        <option>Romance</option>
+                        <option>Sci-Fi</option>
+                        <option>Thriller</option>
+                    </select>
+                </label>
+
+                <label>
+                    Director
+                    <input type="text" name="director" placeholder="Christopher Nolan" required>
+                </label>
+
+                <label>
+                    Lead Actor
+                    <input type="text" name="lead_actor" placeholder="Leonardo DiCaprio" required>
+                </label>
+
+                <div class="two-column">
+                    <label>
+                        Runtime
+                        <input type="number" name="runtime" min="1" max="300" value="130" required>
+                    </label>
+                    <label>
+                        Release Year
+                        <input type="number" name="release_year" min="1900" max="2035" value="2024" required>
+                    </label>
+                </div>
+
+                <div class="two-column">
+                    <label>
+                        Votes
+                        <input type="number" name="vote_count" min="0" value="50000" required>
+                    </label>
+                    <label>
+                        Popularity
+                        <input type="number" name="popularity" min="0" step="0.1" value="75.0" required>
+                    </label>
+                </div>
+
+                <label>
+                    Budget
+                    <input type="number" name="budget" min="0" value="50000000" required>
+                </label>
+
+                <button type="submit" {% if model_error %}disabled{% endif %}>Predict Rating</button>
+            </form>
+
+            <aside class="insight-panel">
+                <h2>Model Workflow</h2>
+                <ul>
+                    <li>EDA with null, duplicate, distribution, and correlation analysis</li>
+                    <li>Numeric scaling and categorical one-hot encoding</li>
+                    <li>Regression model comparison with R2, MAE, MSE, and RMSE</li>
+                    <li>Automatic best-model selection and Joblib persistence</li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

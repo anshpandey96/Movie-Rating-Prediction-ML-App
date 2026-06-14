@@ -1,0 +1,8 @@
+metric,value
+raw_rows,20.0
+raw_columns,10.0
+duplicate_rows,0.0
+clean_rows,20.0
+average_rating,8.43
+highest_rating,9.3
+lowest_rating,7.3

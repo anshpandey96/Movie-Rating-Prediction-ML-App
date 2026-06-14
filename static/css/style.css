@@ -1,0 +1,254 @@
+:root {
+    --background: #070707;
+    --surface: #121212;
+    --surface-light: #1e1e1e;
+    --text: #f8f8f8;
+    --muted: #b8b8b8;
+    --accent: #e50914;
+    --accent-dark: #9b050d;
+    --line: rgba(255, 255, 255, 0.12);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Inter, Arial, sans-serif;
+    color: var(--text);
+    background:
+        linear-gradient(rgba(7, 7, 7, 0.72), rgba(7, 7, 7, 0.96)),
+        url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1800&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.app-shell,
+.result-shell {
+    width: min(1180px, calc(100% - 32px));
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 260px;
+    gap: 24px;
+    align-items: end;
+    min-height: 280px;
+}
+
+.eyebrow {
+    margin: 0 0 10px;
+    color: var(--accent);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+h1,
+h2,
+p {
+    margin-top: 0;
+}
+
+h1 {
+    max-width: 840px;
+    margin-bottom: 16px;
+    font-size: clamp(2.35rem, 5vw, 5rem);
+    line-height: 0.98;
+}
+
+.subtitle {
+    max-width: 720px;
+    color: var(--muted);
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.score-panel,
+.predict-form,
+.insight-panel,
+.result-card,
+.alert {
+    border: 1px solid var(--line);
+    background: rgba(18, 18, 18, 0.88);
+    backdrop-filter: blur(18px);
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+}
+
+.score-panel {
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.score-label {
+    display: block;
+    color: var(--muted);
+    margin-bottom: 8px;
+}
+
+.score-panel strong {
+    font-size: 2rem;
+}
+
+.prediction-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(300px, 0.8fr);
+    gap: 24px;
+    align-items: start;
+}
+
+.predict-form,
+.insight-panel,
+.result-card {
+    border-radius: 8px;
+    padding: 28px;
+}
+
+.form-header {
+    margin-bottom: 22px;
+}
+
+.form-header p,
+.insight-panel li {
+    color: var(--muted);
+}
+
+label {
+    display: grid;
+    gap: 8px;
+    margin-bottom: 18px;
+    color: #ededed;
+    font-weight: 700;
+}
+
+input,
+select {
+    width: 100%;
+    min-height: 48px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 0 14px;
+    color: var(--text);
+    background: var(--surface-light);
+    font: inherit;
+}
+
+input:focus,
+select:focus {
+    outline: 2px solid rgba(229, 9, 20, 0.55);
+    border-color: var(--accent);
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+button,
+.button-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    width: 100%;
+    border: 0;
+    border-radius: 6px;
+    color: white;
+    background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+    font-weight: 800;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+}
+
+.insight-panel ul {
+    display: grid;
+    gap: 16px;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+.alert {
+    margin: 22px 0;
+    padding: 16px;
+    border-radius: 8px;
+    color: #ffd9dc;
+}
+
+.result-shell {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.result-card {
+    width: min(640px, 100%);
+    text-align: center;
+}
+
+.result-card h1 {
+    max-width: none;
+    margin: 0;
+    font-size: clamp(5rem, 16vw, 9rem);
+    color: var(--accent);
+}
+
+.rating-bar {
+    height: 14px;
+    margin: 28px 0;
+    border-radius: 999px;
+    background: var(--surface-light);
+    overflow: hidden;
+}
+
+.rating-bar span {
+    display: block;
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent), #ffb703);
+}
+
+dl {
+    display: grid;
+    gap: 12px;
+    text-align: left;
+    margin: 26px 0;
+}
+
+dl div {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--line);
+}
+
+dt {
+    color: var(--muted);
+}
+
+dd {
+    margin: 0;
+    font-weight: 800;
+}
+
+@media (max-width: 820px) {
+    .hero,
+    .prediction-grid,
+    .two-column {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        min-height: auto;
+        padding-top: 24px;
+    }
+}
