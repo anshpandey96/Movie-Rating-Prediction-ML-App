@@ -1,11 +1,10 @@
 # 🎬 Movie Rating Prediction Web App
 
-![Uploading ChatGPT Image Jun 14, 2026, 08_27_47 PM.png…]()
-
-
 ## 📌 Overview
 This project predicts a movie’s rating (0.0 – 10.0) using **Machine Learning regression models** trained on features like genre, director, lead actor, runtime, release year, votes, popularity, and budget.  
 It includes a **Flask web interface** for interactive predictions and is deployment‑ready on **Render.com**.
+
+<img width="1536" height="1024" alt="ChatGPT Image Jun 14, 2026, 08_27_47 PM" src="https://github.com/user-attachments/assets/846a7930-4068-4083-9b16-1510dd8dfeb6" />
 
 ## ⚙️ Features
 - Exploratory Data Analysis (EDA): nulls, duplicates, distributions, correlations
@@ -45,10 +44,12 @@ Code
 
 ## 📷 Demo
 ### Input Form
-![Movie Features Form](static/form.png)
+
+<img width="1600" height="888" alt="image" src="https://github.com/user-attachments/assets/fb02b191-b85f-4579-92e4-36863d8184a6" />
 
 ### Prediction Result
-![Predicted Rating Result](static/result.png)
+
+<img width="1600" height="888" alt="image" src="https://github.com/user-attachments/assets/68d43225-b416-48f1-8cd3-c6b72bb939dd" />
 
 ## 🛠️ Tech Stack
 - Python, Flask  
@@ -60,5 +61,4 @@ Code
 👤 **Ansh Pandey**  
 - GitHub: [AnshPandey-96](https://github.com/anshpandey96)  
 - LinkedIn: [Ansh Pandey](https://www.linkedin.com/in/ansh-pandey-b1ab34333
-- 
 ---
