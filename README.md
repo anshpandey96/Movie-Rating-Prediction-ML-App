@@ -49,7 +49,7 @@ Code
 
 ### Prediction Result
 
-<img width="1600" height="888" alt="image" src="https://github.com/user-attachments/assets/68d43225-b416-48f1-8cd3-c6b72bb939dd" />
+<img width="1600" height="870" alt="image" src="https://github.com/user-attachments/assets/396669a6-d68e-4d0a-a2e6-196f983fb708" />
 
 ## 🛠️ Tech Stack
 - Python, Flask  
