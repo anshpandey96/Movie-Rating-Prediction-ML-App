@@ -9,6 +9,7 @@ It is built with Python, Flask, and ML models, and deployed for easy access.
 -
 
 🚀 Features
+-
 
 🎯 Predicts movie ratings using trained ML models
 
@@ -21,15 +22,15 @@ It is built with Python, Flask, and ML models, and deployed for easy access.
 ☁️ Deployment ready with Procfile and runtime.txt
 
 -
-
 🗂️ Organized project structure (config, data, models, reports, src, templates, static)
-
 -
+
 ☁️ Deployment ready with Procfile and runtime.txt
 -
 
 🛠️ Tech Stack
 -
+
 Languages: Python
 
 Frameworks: Flask
@@ -37,9 +38,7 @@ Frameworks: Flask
 Libraries: Scikit‑Learn, Pandas, NumPy, Matplotlib, Seaborn
 
 Deployment: Heroku
-
 -
-
 Code
 
 Movie-Rating-Prediction-ML-App/
@@ -58,7 +57,6 @@ Movie-Rating-Prediction-ML-App/
 📸 Screenshots
 
 -
-
 🎥 App Interface
 <img width="1877" height="1028" alt="Screenshot 2026-06-14 203309" src="https://github.com/user-attachments/assets/ea63d18b-9cc2-4a00-9116-4240ee3ed7a9" />
 
@@ -69,7 +67,9 @@ Movie-Rating-Prediction-ML-App/
 
 (Note: Tu apne repo ke andar static/ aur reports/ folder me screenshots daal dena aur unke naam upar ke path ke according rakh dena. Jaise app_screenshot.png aur data_viz.png.)
 
+-
 ⚙️ Installation & Usage
+-
 bash
 
 # Clone the repository
@@ -87,6 +87,7 @@ python app.py
 
 -
 📈 Model Training
+-
 
 Dataset preprocessing with Pandas & NumPy
 
@@ -95,6 +96,7 @@ Feature engineering and scaling
 Model training using Scikit‑Learn
 
 Evaluation with metrics like RMSE & R²
+
 -
 
 🌐 Deployment
