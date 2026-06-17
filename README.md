@@ -1,7 +1,7 @@
 # 🎬 Movie Rating Prediction ML App
 ---
 
-## 📌 Overview  
+📌 Overview  
 This project is a **Machine Learning Web Application** that predicts movie ratings based on multiple features.  
 It is built with **Python, Flask, and ML models**, and is deployment‑ready for cloud platforms.  
 
@@ -41,7 +41,6 @@ Movie-Rating-Prediction-ML-App/
 │── Procfile
 
 ---
-
 📸 Screenshots
 ---
 
@@ -70,6 +69,7 @@ pip install -r requirements.txt
 python app.py
 
 ----
+
 📈 Model Training
 
 Dataset preprocessing with Pandas & NumPy
@@ -79,7 +79,8 @@ Feature engineering and scaling
 Model training using Scikit‑Learn
 
 Evaluation with metrics like RMSE & R²
----
+
+
 🌐 Deployment
 
 Configured with Heroku Procfile
@@ -87,7 +88,8 @@ Configured with Heroku Procfile
 Runtime environment specified in runtime.txt
 
 Ready for cloud deployment
----
+
+
 👨‍💻 Author
 Ansh Pandey
 
