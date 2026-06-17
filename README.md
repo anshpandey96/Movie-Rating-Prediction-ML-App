@@ -22,11 +22,6 @@ It is built with Python, Flask, and ML models, and deployed for easy access.
 ☁️ Deployment ready with Procfile and runtime.txt
 
 -
-🗂️ Organized project structure (config, data, models, reports, src, templates, static)
--
-
-☁️ Deployment ready with Procfile and runtime.txt
--
 
 🛠️ Tech Stack
 -
