@@ -1,10 +1,11 @@
 🎬 Movie Rating Prediction ML App
-
+-
 📌 Overview
+-
 
 This project is a Machine Learning Web Application that predicts movie ratings based on various features.
 It is built with Python, Flask, and ML models, and deployed for easy access.
-
+-
 🚀 Features
 
 🎯 Predicts movie ratings using trained ML models
@@ -12,6 +13,8 @@ It is built with Python, Flask, and ML models, and deployed for easy access.
 📊 Interactive data visualization reports
 
 ⚡ Flask‑based web interface
+
+-
 
 🗂️ Organized project structure (config, data, models, reports, src, templates, static)
 
@@ -26,6 +29,8 @@ Frameworks: Flask
 Libraries: Scikit‑Learn, Pandas, NumPy, Matplotlib, Seaborn
 
 Deployment: Heroku
+
+-
 
 Code
 
