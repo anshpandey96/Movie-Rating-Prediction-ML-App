@@ -6,6 +6,7 @@ This project is a Machine Learning Web Application that predicts movie ratings b
 It is built with Python, Flask, and ML models, and deployed for easy access.
 
 🚀 Features
+
 🎯 Predicts movie ratings using trained ML models
 
 📊 Interactive data visualization reports
@@ -17,6 +18,7 @@ It is built with Python, Flask, and ML models, and deployed for easy access.
 ☁️ Deployment ready with Procfile and runtime.txt
 
 🛠️ Tech Stack
+
 Languages: Python
 
 Frameworks: Flask
@@ -24,8 +26,6 @@ Frameworks: Flask
 Libraries: Scikit‑Learn, Pandas, NumPy, Matplotlib, Seaborn
 
 Deployment: Heroku
-
-📂 Project Structure
 
 Code
 
