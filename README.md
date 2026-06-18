@@ -1,6 +1,5 @@
 # 🎬 Movie Rating Prediction ML App
 ---
-
 📌 Overview  
 This project is a **Machine Learning Web Application** that predicts movie ratings based on multiple features.  
 It is built with **Python, Flask, and ML models**, and is deployment‑ready for cloud platforms.  
@@ -12,6 +11,7 @@ It is built with **Python, Flask, and ML models**, and is deployment‑ready for
 🎥 App Interface
 
 <img width="1877" height="1028" alt="Screenshot 2026-06-14 203309" src="https://github.com/user-attachments/assets/73efab58-c077-4a66-9c1d-b8f5c4f6a673" />
+---
 
 🎯 Prediction Result
 
