@@ -24,8 +24,10 @@ It is built with **Python, Flask, and ML models**, and is deployment‑ready for
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure
+
 ```bash
+
 Movie-Rating-Prediction-ML-App/
 │── config/
 │── data/
@@ -46,12 +48,14 @@ Movie-Rating-Prediction-ML-App/
 
 🎥 App Interface
 
-<img width="1882" height="1032" alt="Screenshot 2026-06-14 203402" src="https://github.com/user-attachments/assets/e6e026c1-0147-44ae-9499-6ac6c0e9beed" />
+<img width="1877" height="1028" alt="Screenshot 2026-06-14 203309" src="https://github.com/user-attachments/assets/73efab58-c077-4a66-9c1d-b8f5c4f6a673" />
+
 
 🎯 Prediction Result
 
-<img width="1902" height="1035" alt="Screenshot 2026-06-14 203335" src="https://github.com/user-attachments/assets/242b00ef-edc9-45c3-b7b8-37ffe4042ed9" />
+<img width="1902" height="1035" alt="Screenshot 2026-06-14 203335" src="https://github.com/user-attachments/assets/2f66f2a1-3d95-469a-9d83-413667a406ed" />
 
+---
 ⚙️ Installation & Usage
 ---
 bash
