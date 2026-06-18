@@ -14,9 +14,8 @@ It is built with **Python, Flask, and ML models**, and is deployment‑ready for
 ---
 
 🎯 Prediction Result
-
+---
 <img width="1902" height="1035" alt="Screenshot 2026-06-14 203335" src="https://github.com/user-attachments/assets/42d8a10f-3b79-423c-976e-b9eacbc4b11a" />
-
 ---
 
 ## 🚀 Features  
